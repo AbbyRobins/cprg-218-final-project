@@ -5,7 +5,6 @@
 body {
     margin: 0;
     overscroll-behavior: none;
-    width: 100%;
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -45,7 +44,7 @@ header nav ul a li {
 #hero {
     position: relative;
     width: 100%;
-    background-image: url('./media/media_photos/index/beach-huts-hero-dark.jpg');
+    background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,4 +83,19 @@ footer {
 
 h2 {
     color: #2a959d;
+    text-align: center;
+}
+
+p {
+    font-weight: 450;
+}
+
+button {
+    width: 100%;
+    background-color: #ff6b6b;
+    padding: 1rem;
+    border: none;
+    border-radius: 4rem;
+    color: #ffffff;
+    font-size: 120%;
 }

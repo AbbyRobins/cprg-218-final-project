@@ -1,0 +1,11 @@
+#escape-paradise {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    text-align: center;
+}
+
+#escape-paradise img {
+    width: 100%;
+    height: auto;
+}
