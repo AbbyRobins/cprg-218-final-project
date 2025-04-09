@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overscroll-behavior: none;
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.025rem;
+}
+
+header {
+    background-color: #d9f0ed;
+    padding: 1rem;
+    text-align: center;
+}
+
+header img {
+    width: 75%;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #d9f0ed;
+    font-weight: 600;
+    font-size: 110%;
+}
+
+header nav ul a li {
+    padding: 0.75rem;
+    margin: 1rem;
+    background-color: #2a959d;
+    border-radius: 0.5rem;
+}
+
+#hero {
+    position: relative;
+    width: 100%;
+    background-image: url('./media_photos/index/beach-huts-hero-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#hero img {
+    padding: 1rem 1rem 0 1rem;
+    width: 30%;
+}
+
+#hero h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #d9f0ed;
+    padding: 0 0 2rem 0;
+    margin: 0;
+}
