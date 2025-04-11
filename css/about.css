@@ -1,0 +1,35 @@
+.hero {
+    position: relative;
+    width: 100%;
+    background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+.hero img {
+    padding: 1rem;
+    width: 25%;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #fff7f7;
+    padding: 0 1rem 2rem 1rem;
+    margin: 0;
+}
+
+.guidelines {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.guidelines img {
+    width: 100%;
+    height: auto;
+}

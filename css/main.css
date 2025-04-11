@@ -10,10 +10,11 @@ body {
     font-weight: 300;
     font-style: normal;
     letter-spacing: 0.025rem;
+    background-color: #fff7f7;
 }
 
 header {
-    background-color: #d9f0ed;
+    background-color: #21295c;
     padding: 1rem;
     text-align: center;
 }
@@ -29,74 +30,63 @@ header nav ul {
 
 header nav ul a {
     text-decoration: none;
-    color: #d9f0ed;
-    font-weight: 600;
-    font-size: 110%;
+    color: #21295c;
+    font-weight: 700;
+    font-size: 115%;
 }
 
 header nav ul a li {
     padding: 0.75rem;
     margin: 1rem;
-    background-color: #2a959d;
+    background-color: #fff7f7;
     border-radius: 0.5rem;
 }
 
-#hero {
-    position: relative;
-    width: 100%;
-    background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-
-#hero img {
-    padding: 1rem 1rem 0 1rem;
-    width: 30%;
-}
-
-#hero h1 {
-    text-align: center;
-    font-size: 200%;
-    color: #d9f0ed;
-    padding: 0 1rem 2rem 1rem;
-    margin: 0;
-}
-
 footer {
-    background-color: #2a959d;
+    background-color: #21295c;
     text-align: center;
-    color: #d9f0ed;
+    color: #fff7f7;
     margin: 1rem 0 0 0;
     padding: 1rem;
 }
 
-#footer-logo {
+footer p {
+    color: #fff7f7;
+    font-weight: 300;
+    font-size: 90%;
+}
+
+.footer-logo {
     width: 75%;
     padding: 1rem;
 }
 
-#social-media-icons img {
+.social-media-icons img {
     padding: 1rem;
 }
 
 h2 {
-    color: #2a959d;
+    color: #21295c;
     text-align: center;
-    padding: 3rem 0 0 0;
+    padding: 2rem 0 0 0;
     margin: 0;
 }
 
+h3 {
+    color: #21295c;
+}
+
 p {
-    font-weight: 450;
+    font-weight: 500;
+    font-size: 105%;
+    color: #21295c;
 }
 
 button {
     width: 100%;
     padding: 1rem;
     background-color: #ff6b6b;
-    color: #ffffff;
+    color: #fff7f7;
     border: none;
     border-radius: 1rem;
     font-size: 120%;

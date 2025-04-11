@@ -1,3 +1,27 @@
+.hero {
+    position: relative;
+    width: 100%;
+    background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+}
+
+.hero img {
+    padding: 1rem;
+    width: 25%;
+}
+
+.hero h1 {
+    text-align: center;
+    font-size: 200%;
+    color: #fff7f7;
+    padding: 0 1rem 2rem 1rem;
+    margin: 0;
+}
+
 #escape-paradise {
     display: grid;
     grid-template-columns: 1fr;
@@ -33,34 +57,68 @@
 }
 
 .info-cells {
-    background-color: #d9f0ed;
-    border: 3px solid #2a959d;
-    border-radius: 30px;
-    padding: 1rem;
-    margin: 0;
+    margin: 1rem 0;
 }
 
 .info-cells img {
-    width: 20%;
+    width: 40%;
+    background-color: #21295c;
+    padding: 2rem;
+    border-radius: 50rem;
+    overflow: visible;
+}
+
+.info-cells h3 {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.info-cells p {
+    margin: 0 1rem;
+}
+
+#home-rooms {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
 }
 
 #home-rooms h2 {
-    margin: 0 1rem;
-    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .home-room-grid {
     margin: 1rem;
-    background-color: #d9f0ed;
+    background-color: #21295c;
     border-radius: 1rem;
 }
 
 .home-room-grid img {
     width: 100%;
     height: auto;
+    border-bottom: 5px solid #D3FFBD;
     border-radius: 1rem 1rem 0 0;
 }
 
 .home-room-grid figcaption {
     padding: 0 1rem 1rem 1rem;
+}
+
+.home-room-grid h3 {
+    color: #fff7f7;
+}
+
+.home-room-grid p {
+    color: #D3FFBD;
+    padding-bottom: 1rem;
+}
+
+.home-room-grid button {
+    background-color: #fff7f7;
+    color: #21295c;
+}
+
+#browse-all button {
+    width: auto;
+    padding: 1rem 2rem;
+    margin: 1rem 0 2rem 0;
 }

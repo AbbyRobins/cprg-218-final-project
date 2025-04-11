@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shangri-La Resort</title>
-    <link rel="icon" type="image/png" href="./branding/favicon.png">
+    <link rel="icon" type="image/png" href="./branding/favicon-coral.png">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/index.css">
     <style>
@@ -13,35 +13,37 @@
 </head>
 <body>
     <header>
-        <img src="./branding/logo/logo_blue.svg" alt="Shangri-La Logo, ocean blue color.">
+        <img src="./branding/logo/logo_white.png" alt="Shangri-La Logo, white variation.">
         <nav>
             <ul>
                 <a href="./index.html"><li>Home</li></a>
-                <a href="./pages_html/rooms.html"><li>Accommodations</li></a>
-                <a href="./pages_html/activities.html"><li>Activities & Excursions</li></a>
-                <a href="./pages_html/spa.html"><li>Serenity Sanctuary Spa</li></a>
-                <a href="./pages_html/dining.html"><li>Dining</li></a>
+                <a href="./rooms.html"><li>Accommodations</li></a>
+                <a href="./activities.html"><li>Activities & Excursions</li></a>
+                <a href="./spa.html"><li>Serenity Sanctuary Spa</li></a>
+                <a href="./dining.html"><li>Dining</li></a>
             </ul>
         </nav>
     </header>
     <main>
 
-        <div id="hero">
-            <img src="./branding/logo-icon/logo_icon_lightblue.svg" alt="Shangri-La Logo Icon, light blue color.">
-            <h1>Your Dream Getaway</h1>
-        </div>
+        <figure class="hero">
+            <img src="./branding/logo-icon/logo_icon_white.png" alt="Shangri-La Logo Icon, white variation.">
+            <figcaption>
+                <h1>Your Dream Getaway</h1>
+            </figcaption>
+        </figure>
 
         <div id="escape-paradise">
             <h2>Escape to Paradise</h2>
             <p>Indulge in luxury and breathtaking views at Shangri La Beach Resort.</p>
-            <img src="./media/media_photos/index/garden-beach.jpg">
-            <a href="./pages_html/rooms.html"><button>Find a Room</button></a>
+            <img src="./media/media_photos/index/garden-beach.jpg" alt="Resort with wood huts on stilts in the shallow tropical water.">
+            <a href="./rooms.html"><button>Find a Room</button></a>
         </div>
 
         <div id="info-grid">
             <h2>Experience Unforgettable Moments</h2>
             <figure class="info-cells">
-                <img src="./media/icons/other/beach-icon-blue.png" alt="Icon of two palm trees on a small island, ocean blue color.">
+                <img src="./media/icons/other/beach-icon-white.png" alt="Icon of two palm trees on a small island, white.">
                 <figcaption>
                     <h3>Private Beach Access</h3>
                     <p>Step onto our pristine, white-sand beach.</p>
@@ -49,7 +51,7 @@
             </figure>
 
             <figure class="info-cells">
-                <img src="./media/icons/other/infinity-icon-blue.png" alt="Icon of the infinity symbol, ocean blue color.">
+                <img src="./media/icons/other/infinity-icon-white.png" alt="Icon of the infinity symbol, white.">
                 <figcaption>
                     <h3>Infinity Pool</h3>
                     <p>Relax by our stunning oceanfront infinity pool.</p>
@@ -57,7 +59,7 @@
             </figure>
 
             <figure class="info-cells">
-                <img src="./media/icons/other/droplet-icon-blue.png" alt="Icon of a water droplet touching water, ocean blue color.">
+                <img src="./media/icons/other/droplet-icon-white.png" alt="Icon of a water droplet touching water, white.">
                 <figcaption>
                     <h3>World-Class Spa</h3>
                     <p>Rejuvenate your mind and body at our Serenity Sanctuary Spa.</p>
@@ -65,7 +67,7 @@
             </figure>
             
             <figure class="info-cells">
-                <img src="./media/icons/other/glasses-icon-blue.png" alt="Icon of two glass tapping each other, ocean blue color.">
+                <img src="./media/icons/other/glasses-icon-white.png" alt="Icon of two glass tapping each other, white.">
                 <figcaption>
                     <h3>Exquisite Dining</h3>
                     <p>Savor culinary delights at our on-site restaurants.</p>
@@ -80,7 +82,7 @@
                 <figcaption>
                     <h3>Ocean View Deluxe Room</h3>
                     <p>Enjoy stunning ocean views from your private balcony.</p>
-                    <a href="./pages_html/rooms.html"><button>More Details [link to area on page]</button></a>
+                    <a href="./rooms.html"><button>More Details [link to area on page]</button></a>
                 </figcaption>
             </figure>
             
@@ -89,7 +91,7 @@
                 <figcaption>
                     <h3>Beachfront Suite</h3>
                     <p>Step directly onto the sand from your spacious suite.</p>
-                    <a href="./pages_html/rooms.html"><button>More Details [link to area on page]</button></a>
+                    <a href="./rooms.html"><button>More Details [link to area on page]</button></a>
                 </figcaption>
             </figure>
             
@@ -98,10 +100,10 @@
                 <figcaption>
                     <h3>Garden View Family Room</h3>
                     <p>Perfect for families, with ample space and garden views.</p>
-                    <a href="./pages_html/rooms.html"><button>More Details [link to area on page]</button></a>
+                    <a href="./rooms.html"><button>More Details [link to area on page]</button></a>
                 </figcaption>
             </figure>
-            <a href="./pages_html/rooms.html"><button>Browse All Accomodations</button></a>
+            <a href="./rooms.html" id="browse-all"><button>Browse All Accomodations</button></a>
         </div>
 
         <h2>What Our Guests Are Saying</h2>
@@ -120,12 +122,12 @@
 
     </main>
     <footer>
-        <img id="footer-logo" src="./branding/logo/logo_lightblue.svg" alt="Shangri-La Logo">
-        <div id="social-media-icons">
-            <img src="./media/icons/social-media/facebook-icon-lightblue.png" alt="Facebook icon, sand beige color.">
-            <img src="./media/icons/social-media/instagram-icon-lightblue.png" alt="Instagram icon, sand beige color.">
-            <img src="./media/icons/social-media/x-icon-lightblue.png" alt="X icon, sand beige color.">
-            <img src="./media/icons/social-media/tiktok-icon-lightblue.png" alt="TikTok icon, sand beige color.">
+        <img class="footer-logo" src="./branding/logo/logo_white.png" alt="Shangri-La Logo">
+        <div class="social-media-icons">
+            <img src="./media/icons/social-media/facebook-icon-white.png" alt="Facebook icon, sand beige color.">
+            <img src="./media/icons/social-media/instagram-icon-white.png" alt="Instagram icon, sand beige color.">
+            <img src="./media/icons/social-media/x-icon-white.png" alt="X icon, sand beige color.">
+            <img src="./media/icons/social-media/tiktok-icon-white.png" alt="TikTok icon, sand beige color.">
         </div>
         <p>&copy2025. Shangri La Beach Resort. All rights reserved.</p>
     </footer>
