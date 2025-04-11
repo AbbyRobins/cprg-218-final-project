@@ -42,6 +42,10 @@ header nav ul a li {
     border-radius: 0.5rem;
 }
 
+header nav ul a li:hover {
+    background-color: #e4e8ff;
+}
+
 footer {
     background-color: #21295c;
     text-align: center;
@@ -80,6 +84,7 @@ p {
     font-weight: 500;
     font-size: 105%;
     color: #21295c;
+    line-height: 1.5;
 }
 
 button {
@@ -94,4 +99,16 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: #d35050;
+}
+
+.floating-button button {
+    margin: 1rem 0 2rem 0;
+    padding: 1rem 2rem;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.floating-button button:hover {
+    transform: scale(1.025);
 }

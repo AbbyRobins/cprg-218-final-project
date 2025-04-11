@@ -1,4 +1,6 @@
 .hero {
+    margin: 0;
+    padding: 1rem;
     position: relative;
     width: 100%;
     background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
@@ -6,7 +8,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    margin: 0;
 }
 
 .hero img {
@@ -15,22 +16,22 @@
 }
 
 .hero h1 {
+    margin: 0;
+    padding: 0 1rem 2rem 1rem;
     text-align: center;
     font-size: 200%;
     color: #fff7f7;
-    padding: 0 1rem 2rem 1rem;
-    margin: 0;
 }
 
 #escape-paradise {
+    margin: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 1rem;
 }
 
 #escape-paradise p {
+    padding-bottom: 0.5rem;
     text-align: center;
-    padding-bottom: 0.5rem;;
 }
 
 #escape-paradise img {
@@ -45,11 +46,11 @@
 }
 
 #info-grid {
+    margin: 1rem;
+    gap: 1rem;
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    margin: 1rem;
-    gap: 1rem;
 }
 
 #info-grid h2 {
@@ -57,13 +58,14 @@
 }
 
 .info-cells {
-    margin: 1rem 0;
+    margin: 0;
+    padding: 1rem;
 }
 
 .info-cells img {
+    padding: 2rem;
     width: 40%;
     background-color: #21295c;
-    padding: 2rem;
     border-radius: 50rem;
     overflow: visible;
 }
@@ -77,6 +79,8 @@
 }
 
 #home-rooms {
+    margin: 1rem;
+    gap: 1rem;
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
@@ -87,7 +91,7 @@
 }
 
 .home-room-grid {
-    margin: 1rem;
+    margin: 0;
     background-color: #21295c;
     border-radius: 1rem;
 }
@@ -108,8 +112,8 @@
 }
 
 .home-room-grid p {
-    color: #D3FFBD;
     padding-bottom: 1rem;
+    color: #D3FFBD;
 }
 
 .home-room-grid button {
@@ -117,8 +121,29 @@
     color: #21295c;
 }
 
-#browse-all button {
-    width: auto;
-    padding: 1rem 2rem;
-    margin: 1rem 0 2rem 0;
+#home-testimonial-grid {
+    margin: 1rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.testimonial {
+    margin: 0;
+    border: 3px solid #21295c;
+    border-radius: 1rem;
+}
+
+.testimonial h3 {
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.testimonial p {
+    margin: 0;
+    padding: 1rem;
+    background-color: #21295c;
+    color:#D3FFBD;
+    border-radius: 0 0 0.5rem 0.5rem;
 }
