@@ -14,8 +14,8 @@ body {
 }
 
 header {
-    background-color: #21295c;
     padding: 1rem;
+    background-color: #21295c;
     text-align: center;
 }
 
@@ -24,8 +24,11 @@ header img {
 }
 
 header nav ul {
-    list-style: none;
     padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
 }
 
 header nav ul a {
@@ -37,7 +40,6 @@ header nav ul a {
 
 header nav ul a li {
     padding: 0.75rem;
-    margin: 1rem;
     background-color: #fff7f7;
     border-radius: 0.5rem;
 }
@@ -47,11 +49,14 @@ header nav ul a li:hover {
 }
 
 footer {
-    background-color: #21295c;
-    text-align: center;
-    color: #fff7f7;
     margin: 1rem 0 0 0;
     padding: 1rem;
+    background-color: #21295c;
+    color: #fff7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 footer p {
@@ -61,19 +66,55 @@ footer p {
 }
 
 .footer-logo {
-    width: 75%;
     padding: 1rem;
+    width: 75%;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+footer ul li {
+    transition: transform 0.3s ease;
+}
+
+footer ul li:hover {
+    transform: scale(1.05);
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff7f7;
+    font-weight: 400;
+}
+
+footer ul li a:hover {
+    color: #D3FFBD;
+}
+
+footer ul a li {
+    padding: 0.75rem;
 }
 
 .social-media-icons img {
     padding: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.social-media-icons img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 h2 {
-    color: #21295c;
-    text-align: center;
     padding: 2rem 0 0 0;
     margin: 0;
+    color: #21295c;
+    text-align: center;
 }
 
 h3 {
@@ -88,8 +129,8 @@ p {
 }
 
 button {
-    width: 100%;
     padding: 1rem;
+    width: 100%;
     background-color: #ff6b6b;
     color: #fff7f7;
     border: none;

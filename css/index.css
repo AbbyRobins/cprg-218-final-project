@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border-bottom: 10px solid #D3FFBD;
 }
 
 .hero img {
@@ -131,19 +132,21 @@
 
 .testimonial {
     margin: 0;
-    border: 3px solid #21295c;
+    border: 2px solid #21295c;
     border-radius: 1rem;
 }
 
 .testimonial h3 {
-    padding: 0 1rem;
+    padding: 1rem;
+    margin: 0;
     text-align: center;
+    background-color: #21295c;
+    color: #fff7f7;
+    border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .testimonial p {
     margin: 0;
     padding: 1rem;
-    background-color: #21295c;
-    color:#D3FFBD;
     border-radius: 0 0 0.5rem 0.5rem;
 }
