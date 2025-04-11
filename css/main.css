@@ -14,13 +14,18 @@ body {
 }
 
 header {
-    padding: 1rem;
+    padding: 1rem 0;
     background-color: #21295c;
     text-align: center;
 }
 
 header img {
+    padding: 1rem 1rem 0 1rem;
     width: 75%;
+}
+
+header nav {
+    padding: 1rem;
 }
 
 header nav ul {
@@ -48,13 +53,19 @@ header nav ul a li:hover {
     background-color: #e4e8ff;
 }
 
+#weather-banner {
+    margin: 0 0 -1rem 0;
+    padding: 1rem;
+    background-color: #D3FFBD
+}
+
 footer {
     margin: 1rem 0 0 0;
     padding: 1rem;
     background-color: #21295c;
     color: #fff7f7;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
     text-align: center;
 }
@@ -101,7 +112,7 @@ footer ul a li {
 }
 
 .social-media-icons img {
-    padding: 1rem;
+    padding: 1rem 0.5rem;
     transition: transform 0.3s ease;
 }
 
