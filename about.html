@@ -13,22 +13,29 @@
 </head>
 <body>
     <header>
-        <img src="./branding/logo/logo_white.png" alt="Shangri-La Logo, white variation.">
+        <div id="weather-banner">
+            <p id="location">Villingili, Maldives</p>
+            <img id="weather-icon" src="" alt="Weather icon.">
+            <p id="temperature"></p>
+        </div>
         <nav>
+            <img src="./branding/logo/logo_white.png" alt="Shangri-La Logo, white variation.">
             <ul>
                 <a href="./index.html"><li>Home</li></a>
                 <a href="./rooms.html"><li>Accommodations</li></a>
-                <a href="./activities.html"><li>Activities & Excursions</li></a>
-                <a href="./spa.html"><li>Serenity Sanctuary Spa</li></a>
+                <a href="./activities.html"><li>Activities</li></a>
+                <a href="./spa.html"><li>Spa</li></a>
                 <a href="./dining.html"><li>Dining</li></a>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="hero">
+        <figure class="hero">
             <img src="./branding/logo-icon/logo_icon_white.png" alt="Shangri-La Logo Icon, white variation.">
-            <h1>About Us</h1>
-        </div>
+            <figcaption>
+                <h1>Your Dream Getaway</h1>
+            </figcaption>
+        </figure>
         <div id="guidelines">
             <h2>Our Branding</h2>
             <img src="./branding/guidelines/brand_colors.png" alt="Color palette">
@@ -60,12 +67,14 @@
         </div>
     </main>
     <footer>
-        <img class="footer-logo" src="./branding/logo/logo_white.png" alt="Shangri-La Logo">
-        <ul>
-            <li><a href="./testimonials.html">Reviews</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./rooms.html">Book With Us</a></li>
-        </ul>
+        <div id="footer-logo-nav">
+            <img class="footer-logo" src="./branding/logo/logo_white.png" alt="Shangri-La Logo">
+            <ul>
+                <li><a href="./testimonials.html">Reviews</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./rooms.html">Book With Us</a></li>
+            </ul>
+        </div>
         <div class="social-media-icons">
             <img src="./media/icons/social-media/facebook-icon-white.png" alt="Facebook icon, white.">
             <img src="./media/icons/social-media/instagram-icon-white.png" alt="Instagram icon, white.">
@@ -74,5 +83,8 @@
         </div>
         <p>&copy2025. Shangri La Beach Resort. All rights reserved.</p>
     </footer>
+
+    <script src="./main.js"></script>
+
 </body>
 </html>
