@@ -64,8 +64,9 @@
 }
 
 .info-cells img {
-    padding: 2rem;
-    width: 40%;
+    padding: 7.5%;
+    max-width: 30%;
+    min-width: 6rem;
     background-color: #21295c;
     border-radius: 50rem;
     overflow: visible;
