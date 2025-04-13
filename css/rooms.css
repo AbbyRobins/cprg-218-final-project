@@ -1,0 +1,228 @@
+.hero {
+    margin: 0;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 10px solid #D3FFBD;
+}
+
+.hero img {
+    padding: 1rem;
+    max-width: 25%;
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 0 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 200%;
+    color: #fff7f7;
+}
+
+#intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    text-align: center;
+}
+
+#intro ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+}
+
+#intro ul a {
+    text-decoration: none;
+    font-size: 105%;
+    font-weight: 500;
+    color: #fff7f7
+}
+
+#intro ul a li {
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #21295c;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+#intro ul a li:hover {
+    background-color: #3b4583;
+    transform: scale(1.025);
+}
+
+#large-room-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+}
+
+.rooms {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.rooms img {
+    width: 100%;
+    padding-bottom: 1rem;
+    order: -1;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.rooms figcaption h3 {
+    margin: 0 0 1rem 0;
+}
+
+.rooms figcaption p {
+    margin: 0 0 1rem 0;
+}
+
+.rooms figcaption ul {
+    margin: 0 0 1rem 0;
+}
+
+.rooms figcaption a button {
+    margin-top: 1rem;
+}
+
+#activities-ad {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .hero img {
+        max-width: 15%;
+    }
+}
+
+/* laptop */
+@media only screen and (min-width: 1025px) {
+    #intro {
+        gap: 1rem;
+    }
+    
+    #intro ul {
+        grid-template-columns: repeat(5, 1fr);
+        grid-auto-rows: 1fr;
+    }
+
+    #intro ul a li {
+        padding: 1rem;
+        height: 100%;
+        display: grid;
+        align-items: center;
+    }
+
+    #large-room-container {
+        gap: 3rem;
+    }
+
+    .rooms {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-auto-rows: 1fr;
+        border: 4px solid #21295c;
+        border-radius: 1.3rem;
+    }
+
+    .rooms figcaption h3 {
+        margin: 1rem;
+    }
+    .rooms figcaption p {
+        margin: 1rem;
+    }
+    .rooms figcaption ul {
+        margin: 1rem;
+    }
+
+    .rooms figcaption a button {
+        border-radius: 0 0 0 1rem;
+    }
+
+    .rooms img {
+        padding-bottom: 0;
+        order: 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0 1rem 1rem 0;
+        object-fit: cover;
+    }
+
+    #oceanview img {
+        object-position: 70% 30%;
+    }
+
+    #beachfront img {
+        object-position: 15% 85%;
+    }
+
+    #gardenview img {
+        object-position: 70% 30%;
+    }
+
+    #accessible img {
+        object-position: 25% 75%;
+    }
+}
+
+@media only screen and (min-width: 1365px) {
+    #large-room-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .rooms {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr;
+        align-items: end;
+        gap: 0;
+    }
+
+    .rooms img {
+        margin-bottom: 0;
+        width: 100%;
+        order: -1;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .rooms figcaption {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .rooms figcaption a {
+        align-self: end;
+    }
+
+    .rooms figcaption a button {
+        border-radius: 0 0 1rem 1rem;
+        
+    }
+
+    #activities-ad {
+        display: grid;
+        height: 55%;
+    }
+
+    #activities-ad img {
+        align-self: start;
+        height: 110%;
+        object-fit: cover;
+    }
+
+    #activities-ad figcaption h3 {
+        padding-top: 1rem;
+    }
+}

@@ -13,11 +13,6 @@ body {
     background-color: #fff7f7;
 }
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1rem;
-}
 
 header {
     margin: 0;
@@ -172,6 +167,13 @@ p {
     font-size: 105%;
     color: #21295c;
     line-height: 1.5;
+}
+
+ul {
+    font-weight: 500;
+    font-size: 100%;
+    color: #21295c;
+    line-height: 2;
 }
 
 button {
