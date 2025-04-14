@@ -1,0 +1,53 @@
+.hero {
+    margin: 0;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    background-image: url('../media/media_photos/index/beach-huts-hero-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 10px solid #D3FFBD;
+}
+
+.hero img {
+    padding: 1rem;
+    max-width: 25%;
+}
+
+.hero h1 {
+    margin: 0;
+    padding: 0 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 200%;
+    color: #fff7f7;
+}
+
+#intro {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonial-container {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.testimonial {
+    margin: 0;
+    text-align: center;
+}
+
+.testimonial img {
+    border-radius: 50rem;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .hero img {
+        max-width: 15%;
+    }
+}
