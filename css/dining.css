@@ -24,6 +24,145 @@
     color: #fff7f7;
 }
 
+
+#intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    text-align: center;
+}
+
+#intro ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    list-style: none;
+}
+
+#intro ul a {
+    text-decoration: none;
+    font-size: 105%;
+    font-weight: 500;
+    color: #fff7f7
+}
+
+#intro ul a li {
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #21295c;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+#intro ul a li:hover {
+    background-color: #3b4583;
+    transform: scale(1.025);
+}
+
+#tags-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cuisine-tag-filter {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    font-weight: 600;
+    color: #60a53d;
+    background-color: #D3FFBD;
+    border: 2px solid #74bb50;
+    border-radius: 10rem;
+}
+
+#ambiance-tag-filter {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    font-weight: 600;
+    color: #d43636;
+    background-color: #ffd0d0;
+    border: 2px solid #e95656;
+    border-radius: 10rem;
+}
+
+#dining-container {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+}
+
+.restaurant {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.restaurant img{
+    width: 100%;
+}
+
+.cuisine-tags,
+.ambiance-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cuisine-tags p {
+    margin-right: 0.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    font-weight: 600;
+    color: #60a53d;
+    background-color: #D3FFBD;
+    border: 2px solid #74bb50;
+    border-radius: 10rem;
+}
+
+.ambiance-tags p {
+    margin-right: 0.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    font-weight: 600;
+    color: #d43636;
+    background-color: #ffd0d0;
+    border: 2px solid #e95656;
+    border-radius: 10rem;
+}
+
+
+.dresscode-tags {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    font-weight: 600;
+    color: #21295c;
+    background-color: #bdc6ff;
+    border: 2px solid #434e96;
+    border-radius: 10rem;
+}
+
+.reso-tags {
+    width: fit-content;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    font-weight: 600;
+    color: #20868a;
+    background-color: #bdfdff;
+    border: 2px solid #36a9ad;
+    border-radius: 10rem;
+}
+
 @media only screen and (min-width: 768px) {
     
     .hero img {
