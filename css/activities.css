@@ -24,12 +24,21 @@
     color: #fff7f7;
 }
 
+h2 {
+    margin: 5rem 1rem 1rem 1rem
+}
+
+h3 {
+    text-align: center;
+    margin: 5rem 1rem 1rem 1rem;
+}
+
 #intro {
     display: grid;
     grid-template-columns: 1fr;
     margin: 1rem;
     text-align: center;
-}
+}    
 
 #intro ul {
     padding: 0;
@@ -37,14 +46,14 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     list-style: none;
-}
+}        
 
 #intro ul a {
     text-decoration: none;
     font-size: 105%;
     font-weight: 500;
     color: #fff7f7
-}
+}        
 
 #intro ul a li {
     margin: auto;
@@ -52,50 +61,102 @@
     background-color: #21295c;
     border-radius: 0.5rem;
     transition: transform 0.3s ease;
-}
+}        
 
 #intro ul a li:hover {
     background-color: #3b4583;
     transform: scale(1.025);
-}
+}        
 
-h3 {
-    text-align: center;
-}
-
-#large-container {
+.large-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5rem;
-}
+    gap: 2rem;
+}    
 
 .list-item {
     margin: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-}
+}    
 
 .list-item img {
     width: 100%;
     padding-bottom: 1rem;
     order: -1;
     border-radius: 1rem 1rem 0 0;
-}
+}    
 
 .list-item figcaption h4 {
     margin: 0 0 1rem 0;
-}
+    font-size: 120%;
+}    
 
 .list-item figcaption p {
     margin: 0 0 1rem 0;
+}    
+
+#watersports {
+    background-color: #D3FFBD;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}    
+
+#watersports figure {
+    background-color: #fff7f7;
+    border-radius: 1rem;
+}    
+
+#watersports h4 {
+    margin: 1rem;
+    text-align: center;
+}    
+
+#watersports p {
+    margin: 1rem;
+    text-align: center;
+}    
+
+#watersports figure h4 {
+    text-align: left;
 }
 
-.list-item figcaption ul {
-    margin: 0 0 1rem 0;
+#watersports figure p {
+    text-align: left;
 }
 
-.list-item figcaption a button {
-    margin-top: 1rem;
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}    
+
+.tags p {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 800;
+    color: #6a9654;
+    background-color: #D3FFBD;
+    border: 4px solid #8dbb76;
+    border-radius: 15rem;
+}    
+
+#booking-info {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#booking-info p {
+    text-align: center;
+}
+
+#booking-info li {
+    padding-top: 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,8 +172,10 @@ h3 {
     }
     
     #intro ul {
-        grid-template-columns: repeat(5, 1fr);
+        margin: 0 15rem;
+        grid-template-columns: repeat(3, 1fr);
         grid-auto-rows: 1fr;
+        gap: 3rem;
     }
 
     #intro ul a li {
@@ -120,5 +183,106 @@ h3 {
         height: 100%;
         display: grid;
         align-items: center;
+    }
+
+    .list-item {
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        grid-auto-rows: 1fr;
+        border: 4px solid #21295c;
+        border-radius: 1.3rem;
+    }
+
+    .list-item figcaption h4 {
+        margin: 1rem;
+    }
+
+    .list-item figcaption p {
+        margin: 1rem;
+    }
+
+    .list-item figcaption ul {
+        margin: 1rem;
+    }
+
+    .list-item figcaption a button {
+        border-radius: 0 0 0 1rem;
+    }
+
+    .list-item img {
+        padding-bottom: 0;
+        order: 1;
+        width: 100%;
+        height: 100%;
+        border-radius: 0 1rem 1rem 0;
+        object-fit: cover;
+    }
+
+}
+
+@media only screen and (min-width: 1365px) {
+
+    #lc-relax,
+    #lc-natural {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    #lc-rec,
+    #lc-culture,
+    #lc-wildlife {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .large-container #watersports {
+        grid-column: span 3;
+    }
+
+    #watersports {
+        background-color: #D3FFBD;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+
+    #watersports h4 {
+        grid-column: span 3;
+    }
+
+    #watersports p {
+        grid-column: span 3;
+    }
+
+    #watersports figure {
+        background-color: #fff7f7;
+        border-radius: 1.2rem;
+    }
+
+    .list-item {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        align-items: start;
+        gap: 0;
+    }
+
+    .list-item img {
+        margin-bottom: 0;
+        width: 100%;
+        order: -1;
+        border-radius: 1rem 1rem 0 0;
+    }
+
+    .list-item figcaption {
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .tags {
+        gap: 0;
+        align-self: end;
     }
 }
