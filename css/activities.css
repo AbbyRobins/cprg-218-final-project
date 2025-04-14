@@ -134,7 +134,7 @@ h3 {
 }    
 
 .tags p {
-    padding: 0.75rem 1rem;
+    padding: 0.5rem 1rem;
     text-align: center;
     font-size: 90%;
     font-weight: 800;
@@ -189,24 +189,11 @@ h3 {
         grid-template-columns: 2fr 1fr;
         align-items: center;
         grid-auto-rows: 1fr;
-        border: 4px solid #21295c;
         border-radius: 1.3rem;
     }
 
     .list-item figcaption h4 {
-        margin: 1rem;
-    }
-
-    .list-item figcaption p {
-        margin: 1rem;
-    }
-
-    .list-item figcaption ul {
-        margin: 1rem;
-    }
-
-    .list-item figcaption a button {
-        border-radius: 0 0 0 1rem;
+        margin: 1rem 0;
     }
 
     .list-item img {
@@ -282,7 +269,6 @@ h3 {
     }
 
     .tags {
-        gap: 0;
         align-self: end;
     }
 }
