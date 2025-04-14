@@ -118,7 +118,7 @@
 
     #leave-review {
         align-self: center;
-        padding: 1rem;
+        padding: 0;
         order: 5;
     }
 }
