@@ -37,7 +37,8 @@
 }
 
 #weather-icons {
-    margin: 1rem;
+    margin: 5rem;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5rem;
@@ -49,8 +50,46 @@
 
 #weather-icons p {
     grid-column: span 3;
+    text-align: center;
 }
 
 #weather-icons img {
     width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .hero img {
+        max-width: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 1025px) {
+    #guidelines {
+        margin: 5rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    #guidelines :nth-child(2) {
+        grid-column: span 3;
+    }
+
+    #guidelines h2 {
+        grid-column: span 3;
+    }
+
+    #weather-icons {
+        margin: 5rem;
+        grid-template-columns: repeat(9, 1fr);
+    }
+
+    #weather-icons h2 {
+        grid-column: span 9;
+    }
+    
+    #weather-icons p {
+        grid-column: span 9;
+    }
+
 }
