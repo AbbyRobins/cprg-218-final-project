@@ -1,12 +1,12 @@
 # cprg-218-final-project Attributions
 
-##Images
+## Images
 
-###Home Page
+### Home Page
 
 Carrysphotoworld, “Resort Beach Swimming Pool Garden,” 2021. Available: https://pixabay.com/photos/resort-beach-swimming-pool-garden-5973816/. Accessed: April 8, 2025.
 
-###Rooms Page
+### Rooms Page
 
 Annamos, “Hotel Room, Bedroom Interior,” 2016. Available: https://pixabay.com/photos/hotel-room-bedroom-interior-1505455/. Accessed: April 8, 2025.
 
@@ -19,7 +19,7 @@ Sabel Blanco, “Blue Loungers on Beige Balcony Beside Sea Landscape Photography
 
 Asad Photo Maldives, “Luxury Overwater Villa at Sunset in Maldives,” 2019. Available: https://www.pexels.com/photo/luxury-overwater-villa-at-sunset-in-maldives-28843958/. Accessed: April 13, 2025.
 
-###Activities Page
+### Activities Page
 
 Asad Photo Maldives, “Bird's Eye View Of People Rowing Boat,” 2019. Available: https://www.pexels.com/photo/bird-s-eye-view-of-people-rowing-boat-3426889/. Accessed: April 13, 2025.
 
@@ -63,7 +63,7 @@ Soonam Wooeser, “A bird standing in the middle of a lush green forest,” 2024
 
 Nabit Photos, “a group of people on a boat in the ocean,” 2021. Available: https://unsplash.com/photos/a-group-of-people-on-a-boat-in-the-ocean-8EGqqGTt6Wg. Accessed: April 13, 2025.
 
-###Spa Page
+### Spa Page
 
 Sergey Torbik, “A Couple Having a Massage,” 2020. Available: https://www.pexels.com/photo/a-couple-having-a-massage-7365407/. Accessed: April 13, 2025.
 
@@ -77,7 +77,7 @@ Jcomp, “Foot washing in spa before treatment. spa treatment and product for fe
 
 Freepik, “Spa concept with woman with long dark hair,” n.d.. Available: https://www.freepik.com/free-photo/spa-concept-with-woman-with-long-dark-hair_2301662.htm?sign-up=google#fromView=search&page=1&position=5&uuid=de60dfd9-1daa-42b0-9b6e-c4d6f732714b&query=spa+scalp+massage. Accessed: April 13, 2025.
 
-###Testimonials Page
+### Testimonials Page
 
 Wirestock, “Closeup shot of a laughing male model outside under the sun rays,” n.d.. Available: https://www.freepik.com/free-photo/closeup-shot-laughing-male-model-outside-sun-rays_20386593.htm#fromView=search&page=1&position=1&uuid=c0433fc3-b6b3-4988-b406-101e9d380adb&query=man+beach+resort+portrait. Accessed: April 14, 2025.
 
@@ -89,7 +89,7 @@ kroshka__nastya, “Happy smiling woman on swing at beach,day warm light,” n.d
 
 katemangostar, “Portrait of cheerful woman at sea,” n.d.. Available: https://www.freepik.com/free-photo/portrait-cheerful-woman-sea_1115742.htm#fromView=image_search&page=1&position=0&uuid=3559f262-eb60-4ae8-a92c-a1be7a7a6917&query=woman+beach+resort+portrait. Accessed: April 14, 2025.
 
-###Dining Page
+### Dining Page
 
 David Bennet, “a wooden table sitting under a wooden roof,” 2024. Available: https://unsplash.com/photos/a-wooden-table-sitting-under-a-wooden-roof-u4b7SHU5XBs. Accessed: April 14, 2025.
 
@@ -105,7 +105,7 @@ Claudia Viloria, “selective focus photography of pitcher filled with milk besi
 
 Lucas Law, “a person holding a chopstick over a plate of food,” 2023. Available: https://unsplash.com/photos/a-person-holding-a-chopstick-over-a-plate-of-food-KDVGz-qnHfc. Accessed: April 14, 2025.
 
-###Hero Images
+### Hero Images
 
 Mitsuo Komoriya, “brown wooden house on blue water under blue sky during daytime,” 2020. Available: https://unsplash.com/photos/brown-wooden-house-on-blue-water-under-blue-sky-during-daytime-egCye6ngbmA. Accessed: April 8, 2025.
 
@@ -115,7 +115,7 @@ Ahmed Yameen, “a person in a kayak,” 2022. Available: https://unsplash.com/p
 
 Arthur Tseng, “a group of people standing on a beach at sunset,” 2022. Available: https://unsplash.com/photos/a-group-of-people-standing-on-a-beach-at-sunset-G_M-JrfMRvs. Accessed: April 14, 2025.
 
-###Other
+## Other
 
 Pixel Free Studio, "Preventing Layout Shifts: Mastering CSS Transitions and Animations," Pixel Free Studio Blog. [Online]. Available: https://blog.pixelfreestudio.com/preventing-layout-shifts-mastering-css-transitions-and-animations/. Accessed: Apr. 11, 2025.
 
