@@ -132,9 +132,6 @@
         align-items: center;
         grid-auto-rows: 1fr;
         border-radius: 1.3rem;
-    }
-
-    .rooms {
         background-color: #faeeee;
     }
 
