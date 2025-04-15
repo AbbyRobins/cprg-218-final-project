@@ -208,6 +208,7 @@ h3 {
     }
 
     div.list-item {
+        padding: 2rem;
         display: flex;
         flex-direction: column;
         gap: 0;
@@ -222,6 +223,7 @@ h3 {
     }
 
     .list-item {
+        background-color: #faeeee;
         margin: 0 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
