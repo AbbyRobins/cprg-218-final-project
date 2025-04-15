@@ -2,7 +2,7 @@ const temperature = document.getElementById('temperature');
 
 temperature.textContent = "Temperature Unavailable";
 
-fetch("https://api.open-meteo.com/v1/forecast?latitude=0.7551&longitude=73.4352&hourly=temperature_2m&current=temperature_2m,is_day,snowfall,cloud_cover,wind_speed_10m,wind_gusts_10m,showers,rain,weather_code&timezone=auto&forecast_days=1")
+fetch("https://api.open-meteo.com/v1/forecast?latitude=21.1743&longitude=-86.8466&current=is_day,temperature_2m,weather_code")
     .then(response => response.json())
     .then(data => {
         console.log(data);
